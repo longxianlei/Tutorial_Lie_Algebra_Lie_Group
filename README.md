@@ -5,11 +5,11 @@
 
 &emsp; 重点参考的博文: 
 
-[1. 李群与李代数对SLAM移动场景的运动坐标表示。](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
+&emsp; [1. 李群与李代数对SLAM移动场景的运动坐标表示。](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
 
-[2. 机器人与视觉——李群与李代数，李括号性质的分析与证明。](https://blog.csdn.net/qq_32998593/article/details/124684758?spm=1001.2014.3001.5501)
+&emsp; [2. 机器人与视觉——李群与李代数，李括号性质的分析与证明。](https://blog.csdn.net/qq_32998593/article/details/124684758?spm=1001.2014.3001.5501)
 
-[3. How to represent a moving scene in SLAM.](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
+&emsp; [3. How to represent a moving scene in SLAM.](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
 
 ## SLAM in representing a moving scene.
 
