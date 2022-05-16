@@ -43,11 +43,15 @@ We summarize **the skew matrix** and **twist matrix** in **Lie algebra** and the
 ##### 1.1.2 The Logarithm map.
 
 #### 1.2 se(3)-> SE(3), for rigid-body motion.
-
+![twist matrix](twist(1).png)
 ### 2. The motion of the camera.
 #### 2.1 Concatenation of motions over frame.
 #### 2.2 Rules of velocity transformation.
 #### 2.3 The adjoint map.
 ### 3. Summary.
 **For more detailed information, please refer to the reference article.**
+
 [How to represent a moving scene in SLAM.](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
+
+<div align=center><img src="./summary.png" alt="scan_simualtion" width = "600" height = "490" />
+
