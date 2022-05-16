@@ -1,7 +1,9 @@
 # Tutorial_Lie_Algebra_Lie_Group
-Tutorial on SLAM representing a moving scene in Lie algebra and Lie group.
+&emsp; Tutorial on SLAM in representing a moving scene in Lie algebra and Lie group.
 
-重点参考的博文: 
+&emsp; This article trying to find how to represent a moving scene in SLAM?
+
+&emsp; 重点参考的博文: 
 
 [1. 李群与李代数对SLAM移动场景的运动坐标表示。](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
 
@@ -11,7 +13,7 @@ Tutorial on SLAM representing a moving scene in Lie algebra and Lie group.
 
 ## SLAM in representing a moving scene.
 
-Representing a moving scene.
+&emsp; Representing a moving scene.
 
 &emsp; **一些必须知识点**：skew matrix 是so(3)李代数中的，对应到SO(3)李群中的旋转矩阵R; twist matrix 是se(3)李代数中的，对应到SE(3)李群中的变换矩阵T。一些基本的知识点，skew matrix如何表达等，读者也应该了解。
 
@@ -30,12 +32,12 @@ Representing a moving scene.
 
 ### 1. Lie group and Lie algebra.
 
-Using Lie algebra, we do not need to construct a complicated transformation matrix, which consist a 3x3 rotation matrix and a 3x1 translation vector. R is a rotation matrix satisfied R*RT=I. We only need 6 parameter, v and w. **And the matrix becomes 4x4 twist matrix.**
+&emsp; Using Lie algebra, we do not need to construct a complicated transformation matrix, which consist a 3x3 rotation matrix and a 3x1 translation vector. R is a rotation matrix satisfied R*RT=I. We only need 6 parameter, v and w. **And the matrix becomes 4x4 twist matrix.**
 
-Taking the tangent space, and modeling the elements in Lie group (Rotation, Transformation) by corresponding element in the tangent space.
+&emsp; Taking the tangent space, and modeling the elements in Lie group (Rotation, Transformation) by corresponding element in the tangent space.
 By introducing Lie algebra, we don't need explicitly construct a rotation matrix R with so many constraints. The 9 parameters in rotation matrix R can be represented by 3 parameters in w. Then, applied the exponential map to its skew matrix. We can get R. 
 
-We summarize **the skew matrix** and **twist matrix** in **Lie algebra** and their **corresponding matrixs in the Lie group**, respectively.
+&emsp; We summarize **the skew matrix** and **twist matrix** in **Lie algebra** and their **corresponding matrixs in the Lie group**, respectively.
 
 #### 1.1 so(3)-> SO(3), only for rotation. 
 
@@ -43,15 +45,15 @@ We summarize **the skew matrix** and **twist matrix** in **Lie algebra** and the
 ##### 1.1.2 The Logarithm map.
 
 #### 1.2 se(3)-> SE(3), for rigid-body motion.
-![twist matrix](twist.png)
+![twist matrix](twist.png#pic_center)
 ### 2. The motion of the camera.
 #### 2.1 Concatenation of motions over frame.
 #### 2.2 Rules of velocity transformation.
 #### 2.3 The adjoint map.
 ### 3. Summary.
-**For more detailed information, please refer to the reference article.**
+&emsp; **For more detailed information, please refer to the reference article.**
 
-[How to represent a moving scene in SLAM.](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
+&emsp; [How to represent a moving scene in SLAM.](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
 
 <div align=center><img src="./summary.png" alt="scan_simualtion" width = "600" height = "490" />
 
