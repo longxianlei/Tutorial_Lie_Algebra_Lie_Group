@@ -37,5 +37,17 @@ By introducing Lie algebra, we don't need explicitly construct a rotation matrix
 
 We summarize **the skew matrix** and **twist matrix** in **Lie algebra** and their **corresponding matrixs in the Lie group**, respectively.
 
+#### 1.1 so(3)-> SO(3), only for rotation. 
+
+##### 1.1.1 The exponential map.
+##### 1.1.2 The Logarithm map.
+
+#### 1.2 se(3)-> SE(3), for rigid-body motion.
+
+### 2. The motion of the camera.
+#### 2.1 Concatenation of motions over frame.
+#### 2.2 Rules of velocity transformation.
+#### 2.3 The adjoint map.
+### 3. Summary.
 **For more detailed information, please refer to the reference article.**
 [How to represent a moving scene in SLAM.](https://blog.csdn.net/qq_32998593/article/details/124801605?spm=1001.2014.3001.5501)
