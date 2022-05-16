@@ -43,7 +43,7 @@ We summarize **the skew matrix** and **twist matrix** in **Lie algebra** and the
 ##### 1.1.2 The Logarithm map.
 
 #### 1.2 se(3)-> SE(3), for rigid-body motion.
-![twist matrix](twist(1).png)
+![twist matrix](twist.png)
 ### 2. The motion of the camera.
 #### 2.1 Concatenation of motions over frame.
 #### 2.2 Rules of velocity transformation.
